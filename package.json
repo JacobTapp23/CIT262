@@ -1,0 +1,22 @@
+{
+  "name": "-y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobTapp23/CIT262.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobTapp23/CIT262/issues"
+  },
+  "homepage": "https://github.com/JacobTapp23/CIT262#readme",
+  "dependencies": {
+    "mocha": "^9.2.2"
+  }
+}
