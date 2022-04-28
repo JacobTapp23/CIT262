@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/JacobTapp23/CIT262#readme",
   "dependencies": {
-    "mocha": "^9.2.2"
-  }
+    "mocha": "^9.2.2",
+    "node-fetch": "^3.2.4"
+  },
+  "type":"module"
 }
