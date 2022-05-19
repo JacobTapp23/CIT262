@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: jacobt-stedi
-          image: gcr.io/$PROJECT_ID/stedi-tests-jacobt:latest
+          image: gcr.io/power-glove/stedi-jacobt:latest
           ports:
             - containerPort: 3000
           resources:
