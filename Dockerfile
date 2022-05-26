@@ -5,7 +5,7 @@ COPY . .
 RUN npm install
 
 WORKDIR /web
-RUN npm run install
+RUN npm install
 RUN npm run build
 WORKDIR /
 
