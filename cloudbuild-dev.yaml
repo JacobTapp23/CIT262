@@ -21,7 +21,7 @@ steps:
       - --location=us-west1-b
       - --cluster=cluster-2
   - name: "gcr.io/cloud-builders/docker"
-    id: Run
+    id: Test
     args:
       - "run"
       - "gcr.io/$PROJECT_ID/stedi-jacobt:latest"
