@@ -28,6 +28,12 @@ spec:
             requests:
               cpu: ".1"
               memory: "250Mi"
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 3000
+            initialDelaySeconds: 3
+            periodSeconds: 3
           livenessProbe:
             httpGet:
               path: /
