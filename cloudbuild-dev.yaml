@@ -22,8 +22,9 @@ steps:
       - --cluster=cluster-2
   - name: "gcr.io/cloud-builders/npm"
     args: ["install"]
-  - name: "gcr.io/cloud-builders/npm"
-    args: ["run","readiness"] 
+  # - name: "gcr.io/cloud-builders/npm"
+  #   id: Check server readiness
+  #   args: ["run","readiness"] 
   - name: "gcr.io/cloud-builders/docker"
     id: Test
     args:
