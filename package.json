@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 180000"
+    "test": "mocha --timeout 180000",
+    "readiness": "node ./utils/readinessCheck.js"
   },
   "repository": {
     "type": "git",
